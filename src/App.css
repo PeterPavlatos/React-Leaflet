@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+}
+#root {
+  height:100%;
+}
+.map {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: 0.2s;
+  z-index: 1;
+}
+.locateBtn {
+  position: absolute;
+  top: 20px;
+  right:20px;
+  z-index:2;
+}
